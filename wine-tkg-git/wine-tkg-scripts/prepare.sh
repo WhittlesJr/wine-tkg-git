@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 _exit_cleanup() {
   # Proton-tkg specifics to send to token

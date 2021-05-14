@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 PATH="${PATH//\/steam-runtime\/amd64\/usr\/bin/}" WINEPREFIX=$WINEPREFIX winetricks

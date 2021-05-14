@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ -d "${srcdir}"/"${_stgsrcdir}" ]; then
     # community patches

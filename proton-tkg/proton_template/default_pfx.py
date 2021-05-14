@@ -87,7 +87,7 @@ def make_default_pfx(default_pfx_dir, dist_dir, runtime):
                 "WINEPREFIX=" + default_pfx_dir,
                 "WINEDEBUG=-all"]
 
-    subprocess.run(runtime_args + ["/bin/bash", "-c",
+    subprocess.run(runtime_args + ["/usr/bin/env bash", "-c",
         os.path.join(dist_dir, 'bin', 'wine') + " wineboot && " +
         os.path.join(dist_dir, 'bin', 'wineserver') + " -w"],
 
